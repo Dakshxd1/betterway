@@ -1,0 +1,22 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/Users/kunikabhadra/Music/Betterway/mini-ecommerce/public/images/bg.png");
+  background-size: cover;        /* FULL SCREEN */
+  background-position: center;   /* CENTERED */
+  background-repeat: no-repeat;  /* NO TILING */
+  background-attachment: fixed;  /* NICE EFFECT */
+}

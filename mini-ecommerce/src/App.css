@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* white overlay */
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card * {
+  position: relative;
+  z-index: 1;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  position: relative;
+  height: 250px;
+  padding: 12px;
+  border-radius: 10px;
+  color: #000;
+
+  /* FALLBACK IMAGE (used if any link fails) */
+  background-image: url("./assets/product-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 1px solid #ccc;
+}
+
